@@ -12,6 +12,10 @@
 		BA28FF0C1E43C7E10011F563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA28FF0A1E43C7E10011F563 /* Main.storyboard */; };
 		BA28FF0E1E43C7E10011F563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA28FF0D1E43C7E10011F563 /* Assets.xcassets */; };
 		BA28FF111E43C7E10011F563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA28FF0F1E43C7E10011F563 /* LaunchScreen.storyboard */; };
+		BA28FF191E43C8900011F563 /* KeypadReusable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA28FF181E43C8900011F563 /* KeypadReusable.xib */; };
+		BA28FF1B1E43CA2E0011F563 /* KeypadReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28FF1A1E43CA2E0011F563 /* KeypadReusable.swift */; };
+		BA28FF1E1E43D1820011F563 /* Notes.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA28FF1D1E43D1820011F563 /* Notes.strings */; };
+		BA28FF201E43E5730011F563 /* KeypadButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28FF1F1E43E5730011F563 /* KeypadButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		BA28FF0D1E43C7E10011F563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA28FF101E43C7E10011F563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA28FF121E43C7E10011F563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA28FF181E43C8900011F563 /* KeypadReusable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeypadReusable.xib; sourceTree = "<group>"; };
+		BA28FF1A1E43CA2E0011F563 /* KeypadReusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadReusable.swift; sourceTree = "<group>"; };
+		BA28FF1D1E43D1820011F563 /* Notes.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Notes.strings; sourceTree = "<group>"; };
+		BA28FF1F1E43E5730011F563 /* KeypadButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,20 @@
 				BA28FF0D1E43C7E10011F563 /* Assets.xcassets */,
 				BA28FF0F1E43C7E10011F563 /* LaunchScreen.storyboard */,
 				BA28FF121E43C7E10011F563 /* Info.plist */,
+				BA28FF1C1E43CA370011F563 /* Reusable Keyboard */,
+				BA28FF1D1E43D1820011F563 /* Notes.strings */,
 			);
 			path = ReusableElements;
+			sourceTree = "<group>";
+		};
+		BA28FF1C1E43CA370011F563 /* Reusable Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BA28FF181E43C8900011F563 /* KeypadReusable.xib */,
+				BA28FF1A1E43CA2E0011F563 /* KeypadReusable.swift */,
+				BA28FF1F1E43E5730011F563 /* KeypadButtons.swift */,
+			);
+			name = "Reusable Keyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA28FF191E43C8900011F563 /* KeypadReusable.xib in Resources */,
+				BA28FF1E1E43D1820011F563 /* Notes.strings in Resources */,
 				BA28FF111E43C7E10011F563 /* LaunchScreen.storyboard in Resources */,
 				BA28FF0E1E43C7E10011F563 /* Assets.xcassets in Resources */,
 				BA28FF0C1E43C7E10011F563 /* Main.storyboard in Resources */,
@@ -136,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA28FF1B1E43CA2E0011F563 /* KeypadReusable.swift in Sources */,
 				BA28FF091E43C7E10011F563 /* ViewController.swift in Sources */,
 				BA28FF071E43C7E10011F563 /* AppDelegate.swift in Sources */,
+				BA28FF201E43E5730011F563 /* KeypadButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,23 @@
+/* 
+  Notes.strings
+  ReusableElements
+
+  Created by Ahmed T Khalil on 2/2/17.
+  Copyright © 2017 kalikans. All rights reserved.
+*/
+
+
+/*
+Steps to Creating a Reusable UIView:
+ 
+ 1) Create a 'View' File 
+    --->(File -> New -> File -> User Interface -> View)
+    --->Design the view as you wish (May want to have a 'Freeform' Size)
+ 2) Create a Cocoa Touch Class (Subclass of UIView)
+    -->(File -> New -> File -> Source -> Cocoa Touch Class
+ 3) Connect the .xib file to the .swift file by going to the File's Owner in the .xib file and setting the custom class (listed under identity inspector) to the .swift file's name
+ 4) Create an outlet in the .swift file for the view in the .xib file
+ 5) Unarchive the contents of the .xib file and add it as a subview of the UIView (see .xib file)
+ 6) If you want to use the stored view, create a UIView in your .storyboard file and set its custom class to the .swift file of the desired UIView
+ 
+*/
